@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 status="$(systemctl status httpd | grep dead | wc -l)"
 
 for (( i=0;i<10;i++ ))
