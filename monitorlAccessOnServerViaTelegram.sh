@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 user="$(whoami)"
 
 date="$(date)"
@@ -12,3 +13,5 @@ curl -s -X POST https://api.telegram.org/bot<YOU_KEY>/sendMessage -d chat_id=<YO
 123
 4566
 >>>>>>> style
+
+echo "End script"
